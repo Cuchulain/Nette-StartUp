@@ -1,23 +1,27 @@
-Nette Sandbox
+Nette + Doctrine2 StartUp
 =============
 
 This is a simple pre-packaged and pre-configured application using the [Nette](https://nette.org)
-that you can use as the starting point for your new applications.
+with Doctrine2 support that you can use as the starting point for your new applications.
 
 [Nette](https://nette.org) is a popular tool for PHP web development.
 It is designed to be the most usable and friendliest as possible. It focuses
 on security and performance and is definitely one of the safest PHP frameworks.
 
+[Doctrine 2](http://www.doctrine-project.org/) is a Object Relational Mapper (ORM)
+and the Database Abstraction Layer (DBAL).
 
 Installation
 ------------
 
-The best way to install Web Project is using Composer. If you don't have Composer yet,
+Clone this repository to new directory and from this created directory
+install dependencies with Composer.
+
+If you don't have Composer yet,
 download it following [the instructions](https://doc.nette.org/composer). Then use command:
 
-	composer create-project nette/sandbox path/to/install
 	cd path/to/install
-
+	composer install
 
 Make directories `temp/` and `log/` writable.
 
@@ -55,4 +59,5 @@ To use it, browse to the subdirectory `/adminer` in your project root (i.e. `htt
 License
 -------
 - Nette: New BSD License or GPL 2.0 or 3.0
+- Doctrine 2: CC BY-NC-SA 3.0 (Creative Commons Legal Code, Attribution-NonCommercial-ShareAlike 3.0 Unported)
 - Adminer: Apache License 2.0 or GPL 2
