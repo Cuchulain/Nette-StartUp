@@ -23,7 +23,6 @@ services:
 	router: App\RouterFactory::createRouter
 
 extensions:
-    # add theese four lines
     console: Kdyby\Console\DI\ConsoleExtension
     events: Kdyby\Events\DI\EventsExtension
     annotations: Kdyby\Annotations\DI\AnnotationsExtension
