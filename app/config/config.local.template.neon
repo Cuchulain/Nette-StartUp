@@ -1,0 +1,17 @@
+parameters:
+
+
+database:
+	dsn: 'mysql:host=127.0.0.1;dbname=web'
+	user: root
+	password: passw
+	options:
+		lazy: yes
+
+doctrine:
+    user: root
+    password: passw
+    dbname: web
+    metadata:
+        App: %appDir%
+
